@@ -18,6 +18,7 @@ def solution(numbers, hand):
         else:
             # disL=(currentL[0]-keypad[i][0])**2+(currentL[1]-keypad[i][1])**2
             # disR=(currentR[0]-keypad[i][0])**2+(currentR[1]-keypad[i][1])**2
+            
             disL=abs(currentL[0]-keypad[i][0])+abs(currentL[1]-keypad[i][1])
             disR=abs(currentR[0]-keypad[i][0])+abs(currentR[1]-keypad[i][1])
             if disL<disR:
