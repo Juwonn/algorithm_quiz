@@ -1,3 +1,4 @@
+#프로그래머스 카카오 2019 겨울인턴쉽 불량사용자
 import itertools
 arr=[]
 def sol(user_id,banned_id):
